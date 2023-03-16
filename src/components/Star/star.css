@@ -2,7 +2,22 @@
     position: absolute;
     color: #FF6060;
 }
-
+.etoiles i {
+    width: 30px;
+    height: 30px;
+}
 .etoiles-fix {
     color: #E3E3E3;
+}
+.etoiles-fix i {
+    width: 30px;
+    height: 30px;
+}
+@media (max-width: 800px) {
+    .etoiles i , .etoiles-fix i {
+        width: 15px;
+        height: 15px;
+        padding-right: 5px;
+    }
+   
 }

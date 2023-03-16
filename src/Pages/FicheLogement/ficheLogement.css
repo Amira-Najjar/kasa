@@ -57,7 +57,7 @@
     line-height: 51px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 30px 0px 0px 0px;
+    margin: 0;
 }
 
 .detailTitle p {
@@ -96,6 +96,7 @@
 }
 .contentProfil {
     display: flex;
+    padding-top: 24px;
 }
 .logementDescription {
     display: flex;
