@@ -1,0 +1,38 @@
+.containeur-404 {
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 411px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FF6060;
+}
+.erreur-text {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0em;
+}
+.link-erreur {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    display: flex;
+    color: #FF6060;
+    justify-content: center;
+}
+@media (max-width: 800px) {
+    .containeur-404{
+        font-size: 96px; 
+    } 
+    .erreur-text{
+        font-size: 18px;
+    }
+    .link-erreur{
+        font-size: 14px;
+    } 
+}

@@ -1,0 +1,131 @@
+.detailTitle {
+    color: #FF6060;
+}
+
+.logementDetail {
+    margin-bottom: 5%;
+}
+
+.logementTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imgProfil img {
+    display: flex;
+    justify-content: flex-end;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.imgProfil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-star {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boxProfil {
+    display: flex;
+    align-items: center;
+}
+
+.imgProfil p {
+    width: 68px;
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.detailTitle h2 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 30px 0px 0px 0px;
+}
+
+.detailTitle p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.detailTag {
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.detailTag span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: auto;
+    border-radius: 10px;
+    background-color: #FF6060;
+    color: white;
+    margin: 23px 10px 0px 0px;
+    padding: 5px;
+}
+.logementHead {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.contentProfil {
+    display: flex;
+}
+.logementDescription {
+    display: flex;
+    justify-content: space-between;
+}
+.logCollapse{
+    width: 582px;
+}
+@media (max-width: 800px) {
+    .collapse {
+        margin-right: 0;
+    }
+    .logementDescription{
+      flex-direction: column;
+    }
+    .logCollapse{
+        width: auto;
+    }
+    .detailTag {
+        width: auto;
+        white-space: nowrap;
+    }
+
+    .imgProfil {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .contentProfil {
+        width: 100%;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .logo{
+    width:210.32px;
+    height: 68px;
+    padding-top: 40px;
+  }
+  @media (max-width: 800px){
+    .logo{
+      width: auto;
+    }
+  }

@@ -1,27 +1,22 @@
-
 import React from 'react';
-import { BrowserRouter , Route,Routes } from "react-router-dom";
-import  Home  from './components/Home';
-import  APropos  from './components/APropos';
-import NotFound from './components/NotFound';
-export default function App() {
-  return (
-   
-      <BrowserRouter>
-      <div >
-          <Routes>
-              <Route path="/" element={<Home />}  />
-              <Route path="/apropos" element={<APropos />} />
-              <Route path='*' element={<NotFound />} />
-          </Routes>
-      </div>  
-      </BrowserRouter>
-  
-  );
+import {BrowserRouter as Router} from "react-router-dom"
+import './index.css';
+import RouteApp from './Routes/route'
+import Footer from "./components/Footer/footer";
+import Header from "./components/Header/Header";
+
+const App = () => {
+    return (
+        <Router>
+            <div>
+                <Header/>
+                <RouteApp/>
+                <Footer/>
+            </div>
+        </Router>
+    )
 }
-
-
-
+export default App
 
 
 
